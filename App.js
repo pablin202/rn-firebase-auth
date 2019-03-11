@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Platform, Image, Text, View } from 'react-native'
-import { SwitchNavigator } from 'react-navigation'
+import { createSwitchNavigator, createAppContainer } from 'react-navigation'
 
 
 import SignUp from './app/pages/SignUp';
@@ -9,14 +9,11 @@ import Main from './app/pages/Main';
 import Login from './app/pages/Login';
 
 // create our app's navigation stack
-const App = SwitchNavigator({
+export default createAppContainer(createSwitchNavigator({
     Loading,
     SignUp,
     Login,
     Main
 }, {
     initialRouteName: 'Loading'
-})
-
-
-export default App
+}));
