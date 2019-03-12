@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "34222155370",
+    "firebase_url": "https://rn-auth-d0c33.firebaseio.com",
+    "project_id": "rn-auth-d0c33",
+    "storage_bucket": "rn-auth-d0c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34222155370:android:fa064a3979a1d3ce",
+        "android_client_info": {
+          "package_name": "com.pdm.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34222155370-hc4i13ff5b85bjt3uh097rb4pibme9e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz3xtEhQw4Gl-EqPWcfyUbZ00w97wnj7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
